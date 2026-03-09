@@ -49,7 +49,7 @@
 }
 
 .tabs-info .tabs-info-panel {
-  padding: 24px 0;
+  padding: var(--spacing-m) 0;
 }
 
 .tabs-info .tabs-info-panel[aria-hidden='true'] {
@@ -60,6 +60,12 @@
   font-size: var(--heading-font-size-l);
   font-weight: 325;
   margin-top: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.tabs-info .tabs-info-panel p {
+  font-weight: 325;
+  line-height: 1.5;
 }
 
 @media (width >= 600px) {

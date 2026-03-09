@@ -4,7 +4,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 32px;
+  gap: var(--spacing-l);
 }
 
 .cards-feature > ul > li {
@@ -14,7 +14,7 @@
 }
 
 .cards-feature .cards-feature-card-body {
-  padding: 16px 0;
+  padding: var(--spacing-s) 0;
 }
 
 .cards-feature .cards-feature-card-body h2 {
@@ -22,6 +22,11 @@
   font-weight: 325;
   line-height: 1.33;
   margin-top: 0;
+}
+
+.cards-feature .cards-feature-card-body p {
+  font-weight: 325;
+  line-height: 1.5;
 }
 
 .cards-feature .cards-feature-card-image {
@@ -38,11 +43,11 @@
 @media (width >= 900px) {
   .cards-feature > ul > li {
     grid-template-columns: 1fr 1fr;
-    gap: 32px;
+    gap: var(--spacing-l);
   }
 
   .cards-feature .cards-feature-card-body {
-    padding: 16px 0;
+    padding: var(--spacing-s) 0;
     display: flex;
     flex-direction: column;
     justify-content: center;

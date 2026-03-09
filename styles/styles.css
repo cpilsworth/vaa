@@ -20,7 +20,8 @@
   --link-color: #030c16;
   --link-hover-color: #da0530;
   --accent-color: #da0530;
-  --accent-hover-color: #b50428;
+  --accent-hover-color: #b1062b;
+  --accent-light-color: #fcf1f3;
   --border-color: #e6e7e8;
 
   /* fonts */
@@ -50,6 +51,9 @@
   --spacing-l: 32px;
   --spacing-xl: 48px;
   --spacing-xxl: 64px;
+
+  /* transitions */
+  --transition-base: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 /* fallback font */
@@ -160,6 +164,7 @@ a:any-link {
   color: var(--link-color);
   text-decoration: none;
   overflow-wrap: break-word;
+  transition: var(--transition-base);
 }
 
 a:hover {
@@ -192,6 +197,7 @@ button.button {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  transition: var(--transition-base);
 }
 
 a.button[aria-disabled="true"],
@@ -239,7 +245,7 @@ a.button.secondary:focus-visible,
 button.button.secondary:hover,
 button.button.secondary:focus-visible {
   border-color: var(--accent-hover-color);
-  background-color: transparent;
+  background-color: var(--accent-light-color);
   color: var(--accent-hover-color);
 }
 

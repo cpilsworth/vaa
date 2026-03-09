@@ -53,8 +53,8 @@
 
 .carousel-attractions .carousel-attractions-slide .carousel-attractions-slide-content {
   z-index: 1;
-  margin: 24px;
-  padding: 16px;
+  margin: var(--spacing-m);
+  padding: var(--spacing-s);
   color: #fff;
   background-color: rgb(3 12 22 / 70%);
   position: relative;
@@ -66,6 +66,13 @@
   font-weight: 325;
   color: #fff;
   margin-top: 0;
+}
+
+.carousel-attractions .carousel-attractions-slide .carousel-attractions-slide-content p {
+  font-size: var(--body-font-size-m);
+  font-weight: 325;
+  line-height: 1.5;
+  color: #fff;
 }
 
 .carousel-attractions .carousel-attractions-slide-indicators {
@@ -145,14 +152,14 @@
 
 @media (width >= 600px) {
   .carousel-attractions .carousel-attractions-navigation-buttons {
-    left: 24px;
-    right: 24px;
+    left: var(--spacing-m);
+    right: var(--spacing-m);
   }
 
   .carousel-attractions .carousel-attractions-slide .carousel-attractions-slide-content {
     --slide-content-width: calc((100% - 184px) / 2);
 
-    margin: 48px;
+    margin: var(--spacing-xl);
   }
 
   .carousel-attractions .carousel-attractions-slide .carousel-attractions-slide-content[data-align='justify'] {
