@@ -1,0 +1,38 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-09T09:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.virginatlantic.com/en-AE/inspiration/usa/new-york-city-break",
+    "originPage": "Inspiration destination guide page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature-cards",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + bulleted list per card",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature highlight cards with images",
+      "destination vibe or category cards",
+      "rich content cards with lists"
+    ],
+    "notSuitableFor": [
+      "simple linked article cards",
+      "cards without images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/en-AE/inspiration/usa/new-york-city-break"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-09T09:43:00.000Z"
+  }
+}

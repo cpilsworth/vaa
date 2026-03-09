@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "url": "https://www.virginatlantic.com/en-AE/inspiration/usa/new-york-city-break",
+  "path": "en-ae/inspiration/usa/new-york-city-break",
+  "timestamp": "2026-03-09T10:03:45.822Z",
+  "title": "New York City Break | Inspiration | Virgin Atlantic",
+  "template": "inspiration-page",
+  "blocks": [
+    "tabs-info",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "carousel-attractions",
+    "cards-linked"
+  ]
+}

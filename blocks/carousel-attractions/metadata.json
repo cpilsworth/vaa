@@ -1,0 +1,38 @@
+{
+  "variantName": "carousel-attractions",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-03-09T09:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.virginatlantic.com/en-AE/inspiration/usa/new-york-city-break",
+    "originPage": "Inspiration destination guide page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "attractions-showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + timing tip per slide",
+    "buttonCount": 0,
+    "imageCount": 5
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "attraction or point-of-interest showcases",
+      "destination highlight carousels",
+      "image-heavy content sliders"
+    ],
+    "notSuitableFor": [
+      "single-image hero banners",
+      "text-only carousels"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/en-AE/inspiration/usa/new-york-city-break"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-09T09:43:00.000Z"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "templates": [
+    {
+      "name": "inspiration-page",
+      "urls": ["https://www.virginatlantic.com/en-AE/inspiration/usa/new-york-city-break"],
+      "description": "Inspirational destination guide page featuring travel imagery, destination highlights, and booking CTAs",
+      "blocks": [
+        {
+          "name": "tabs-info",
+          "instances": ["[data-testid=\"tabs-component\"]"]
+        },
+        {
+          "name": "cards-feature",
+          "instances": ["article[data-testid=\"content-card-component\"][class*=\"landscape\"]"]
+        },
+        {
+          "name": "columns-feature",
+          "instances": ["article[data-testid=\"content-card-component\"][class*=\"landscape\"]"]
+        },
+        {
+          "name": "carousel-attractions",
+          "instances": ["section[data-testid=\"carousel-component\"]"]
+        },
+        {
+          "name": "cards-linked",
+          "instances": ["section[data-testid=\"articleslist\"]"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Hero Section",
+          "selector": ["[data-testid=\"text-lockup-component\"]:has(h1)", "div:has(> h1[data-testid=\"typography-component\"])"],
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["h1", "[data-testid=\"typography-component\"][class*=\"body-size--small\"]", "[data-testid=\"image-component\"]", "div[class*=\"body-size--medium\"]", "button[data-testid=\"button-component\"][class*=\"brand\"]"]
+        },
+        {
+          "id": "section-2-flight-info",
+          "name": "Flight Info Tabs",
+          "selector": "[data-testid=\"tabs-component\"]",
+          "style": null,
+          "blocks": ["tabs-info"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3-why-nyc",
+          "name": "Why New York Works",
+          "selector": ["[data-testid=\"text-lockup-component\"]:has(h2:contains('Why New York'))", "div:has(> h2[data-testid=\"typography-component\"])"],
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["h2", "div[class*=\"body-size--medium\"]", "ul"]
+        },
+        {
+          "id": "section-4-pick-your-vibe",
+          "name": "Pick Your Vibe",
+          "selector": ["[data-testid=\"text-lockup-component\"]:has(h2:contains('Pick your vibe'))", "div:has(> h2:contains('Pick your vibe'))"],
+          "style": null,
+          "blocks": ["cards-feature"],
+          "defaultContent": ["h2"]
+        },
+        {
+          "id": "section-5-where-to-stay",
+          "name": "Where to Stay",
+          "selector": ["[data-testid=\"text-lockup-component\"]:has(h2:contains('Where to stay'))", "div:has(> h2:contains('Where to stay'))"],
+          "style": null,
+          "blocks": ["columns-feature"],
+          "defaultContent": ["h2", "div[class*=\"body-size--medium\"]"]
+        },
+        {
+          "id": "section-6-top-attractions",
+          "name": "Top 5 Attractions",
+          "selector": "section[data-testid=\"carousel-component\"]",
+          "style": null,
+          "blocks": ["carousel-attractions"],
+          "defaultContent": ["h2"]
+        },
+        {
+          "id": "section-7-broadway",
+          "name": "Broadway",
+          "selector": ["[data-testid=\"text-lockup-component\"]:has(h2:contains('Broadway'))", "div:has(> h2:contains('Broadway'))"],
+          "style": null,
+          "blocks": ["columns-feature"],
+          "defaultContent": ["h2", "div[class*=\"body-size--medium\"]"]
+        },
+        {
+          "id": "section-8-getting-around",
+          "name": "Getting Around",
+          "selector": ["[data-testid=\"text-lockup-component\"]:has(h2:contains('How to get around'))", "div:has(> h2:contains('How to get around'))"],
+          "style": null,
+          "blocks": ["columns-feature"],
+          "defaultContent": ["h2"]
+        },
+        {
+          "id": "section-9-how-to-book",
+          "name": "How to Book",
+          "selector": ["[data-testid=\"text-lockup-component\"]:has(h2:contains('How to book'))", "div:has(> h2:contains('How to book'))"],
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["h2", "div[class*=\"body-size--medium\"]", "button[data-testid=\"button-component\"][class*=\"brand\"]"]
+        },
+        {
+          "id": "section-10-more-inspiration",
+          "name": "More Inspiration",
+          "selector": "section[data-testid=\"articleslist\"]",
+          "style": null,
+          "blocks": ["cards-linked"],
+          "defaultContent": ["h3"]
+        }
+      ]
+    }
+  ]
+}

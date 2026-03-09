@@ -1,0 +1,38 @@
+{
+  "variantName": "tabs-info",
+  "baseBlock": "tabs",
+  "version": "1.0.0",
+  "created": "2026-03-09T09:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.virginatlantic.com/en-AE/inspiration/usa/new-york-city-break",
+    "originPage": "Inspiration destination guide page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "flight-info",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "4 tabs with icon + label + heading + paragraph",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "flight information sections",
+      "destination quick facts",
+      "tabbed info panels with icons"
+    ],
+    "notSuitableFor": [
+      "complex tabbed content with media",
+      "tabs with long-form content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/en-AE/inspiration/usa/new-york-city-break"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-09T09:43:00.000Z"
+  }
+}

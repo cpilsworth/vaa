@@ -1,13 +1,30 @@
-# Your Project's Title...
-Your project's description...
+# Virgin Atlantic — AEM Edge Delivery Services
+
+Destination inspiration pages for Virgin Atlantic, migrated to Adobe Experience Manager Edge Delivery Services.
 
 ## Environments
 - Preview: https://main--{repo}--{owner}.aem.page/
 - Live: https://main--{repo}--{owner}.aem.live/
 
+## Blocks
+
+| Block | Description |
+|-------|-------------|
+| `tabs-info` | Tabbed flight information display with accessible tab navigation |
+| `cards-feature` | Rich feature cards with image and descriptive content |
+| `cards-linked` | Linked article cards for related inspiration content |
+| `columns-feature` | Featured content in a two-column image and text layout |
+| `carousel-attractions` | Slideshow carousel for top attractions with navigation controls |
+
+## Migrated Content
+
+| Page | Source |
+|------|--------|
+| `/en-ae/inspiration/usa/new-york-city-break` | [virginatlantic.com](https://www.virginatlantic.com/en-AE/inspiration/usa/new-york-city-break) |
+
 ## Documentation
 
-Before using the aem-boilerplate, we recommand you to go through the documentation on https://www.aem.live/docs/ and more specifically:
+For more on AEM Edge Delivery Services, see https://www.aem.live/docs/ and specifically:
 1. [Developer Tutorial](https://www.aem.live/developer/tutorial)
 2. [The Anatomy of a Project](https://www.aem.live/developer/anatomy-of-a-project)
 3. [Web Performance](https://www.aem.live/developer/keeping-it-100)
